@@ -1,0 +1,233 @@
+/*------------blue----------------*/
+ .table-blue th {
+    background: #1976D2;
+  }
+.table-blue tr {
+    border-color:#1976D2;
+  }
+  .table-blue tr:nth-child(even) {
+    background:  #90CAF9;
+  }
+  .table-blue tr:nth-child(odd) {
+    background:  #BBDEFB;
+  }
+/*------------purple----------------*/
+ .table-purple th {
+    background: #8E24AA;
+  }
+.table-purple tr {
+    border-color:#8E24AA;
+  }
+  .table-purple tr:nth-child(even) {
+    background:  #CE93D8;
+  }
+  .table-purple tr:nth-child(odd) {
+    background:  #E1BEE7;
+  }
+/*------------brown----------------*/
+ .table-brown th {
+    background: #6D4C41;
+  }
+.table-brown tr {
+    border-color:#6D4C41;
+  }
+  .table-brown tr:nth-child(even) {
+    background:  #A1887F;
+  }
+  .table-brown tr:nth-child(odd) {
+    background:  #D7CCC8;
+  }
+/*------------orange----------------*/
+ .table-orange th {
+    background: #EF6C00;
+  }
+.table-orange tr {
+    border-color:#EF6C00;
+  }
+  .table-orange tr:nth-child(even) {
+    background:  #FFB74D;
+  }
+  .table-orange tr:nth-child(odd) {
+    background:  #FFE0B2;
+  }
+/*------------black----------------*/
+ .table-black th {
+    background: #000000;
+  }
+ .table-black tr {
+    border-color: #000000;
+  }
+  .table-black tr:nth-child(even) {
+    background:  #A6A6A6;
+  }
+  .table-black tr:nth-child(odd) {
+    background:  #D9D9D9;
+  }
+/*------------teal----------------*/
+ .table-teal th {
+    background: #00695C;
+  }
+ .table-teal tr {
+    border-color: #00695C;
+  }
+  .table-teal tr:nth-child(even) {
+    background:  #4DB6AC;
+  }
+  .table-teal tr:nth-child(odd) {
+    background:  #B2DFDB;
+  }
+/*------------green----------------*/
+ .table-green th {
+    background: #2E7D32;
+  }
+ .table-green tr {
+    border-color: #2E7D32;
+  }
+  .table-green tr:nth-child(even) {
+    background: #66BB6A;
+  }
+  .table-green tr:nth-child(odd) {
+    background:  #A5D6A7;
+  }
+/*------------grey----------------*/
+ .table-grey th {
+    background: #757575;
+  }
+ .table-grey tr {
+    border-color: #757575;
+  }
+  .table-grey tr:nth-child(even) {
+    background:  #BDBDBD;
+  }
+  .table-grey tr:nth-child(odd) {
+    background:  #E0E0E0;
+  }
+/*------------pink----------------*/
+ .table-pink th {
+    background: #D81B60;
+  }
+ .table-pink tr {
+    border-color: #D81B60;
+  }
+  .table-pink tr:nth-child(even) {
+    background:  #F48FB1;
+  }
+  .table-pink tr:nth-child(odd) {
+    background:  #FCE4EC;
+  }
+/*------------red----------------*/
+ .table-red th {
+    background: #B71C1C;
+  }
+ .table-red tr {
+    border-color: #B71C1C;
+  }
+  .table-red tr:nth-child(even) {
+    background:  #EA9292;
+  }
+  .table-red tr:nth-child(odd) {
+    background:  #FFCDD2;
+  }
+/*------------cyan----------------*/
+ .table-cyan th {
+    background: #00838f;
+  }
+ .table-cyan tr {
+    border-color: #00838f;
+  }
+  .table-cyan tr:nth-child(even) {
+    background:  #85DDE8;
+  }
+  .table-cyan tr:nth-child(odd) {
+    background:  #B2EBF2;
+  }
+/*------------light-green----------------*/
+ .table-light-green th {
+    background: #558B2F;
+  }
+ .table-light-green tr {
+    border-color: #558B2F;
+  }
+  .table-light-green tr:nth-child(even) {
+    background:  #AED581;
+  }
+  .table-light-green tr:nth-child(odd) {
+    background:  #DCEDC8;
+  }
+/*----------quick-table2 color combos -----------*/
+.quick-table2.table-cyan tr{
+    border-color: #00838f;
+}
+
+.quick-table2.table-light-green tr{
+    border-color: #558B2F;
+}
+
+.quick-table2.table-blue tr{
+    border-color: #1976D2;
+}
+.quick-table2.table-purple tr{
+    border-color: #8E24AA;
+}
+
+.quick-table2.table-brown tr{
+    border-color: #6D4C41;
+}
+.quick-table2.table-black tr{
+    border-color: black;
+}
+.quick-table2.table-grey tr{
+    border-color: #757575;
+}
+.quick-table2.table-teal tr{
+    border-color: #00695C;
+}
+.quick-table2.table-green tr{
+    border-color: #2E7D32;
+}
+
+.quick-table2.table-orange tr{
+    border-color: #EF6C00;
+}
+.quick-table2.table-pink tr{
+    border-color: #D81B60;
+}
+.quick-table2.table-red tr{
+    border-color: #B71C1C;
+}
+
+/*_______________________________Table Styles------------------------------*/
+table.quick-table2,table.quick-table3, table.quick-table1 {
+    margin: 1em auto;
+    border-collapse: collapse;
+    font-family: Calibri, sans-serif;
+  }
+.quick-table2 th, .quick-table3 th, .quick-table1 th {
+    font-weight:700;
+    color: #fff;
+  }
+
+.quick-table2 tr, .quick-table1 tr {
+    border-width: 1px;
+    border-style: solid;
+  }
+
+    
+  .quick-table2 th, .quick-table2 td , .quick-table1 td, .quick-table1 th{
+    border-left: none;
+    border-right: none;
+    padding: 4px 8px;
+  }
+
+ .quick-table2 tr:nth-child(even),.quick-table1 td {
+    background:  white;
+  }
+
+  .quick-table3 th {
+    border-bottom:2px solid white;
+  }
+    
+  .quick-table3 th, .quick-table3 td {
+    border:1px solid white;
+    padding: 4px 8px;
+  }
